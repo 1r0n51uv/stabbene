@@ -1,9 +1,0 @@
-const devconfig = {
-    apiKey: "AIzaSyDcFQrxSjmR_qZgC0xsUfEbRsfamjLmRfk",
-    authDomain: "stabbene-26dc4.firebaseapp.com",
-    databaseURL: "https://stabbene-26dc4.firebaseio.com",
-    projectId: "stabbene-26dc4",
-    storageBucket: "stabbene-26dc4.appspot.com",
-    messagingSenderId: "387895726077",
-    appId: "1:387895726077:web:158887f0bff263aa"
-};
