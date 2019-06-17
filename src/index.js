@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import firebase from 'firebase/app';
+import 'firebase/firestore';
+import { FirestoreProvider } from 'react-firestore';
 
 import * as serviceWorker from './serviceWorker';
 
@@ -17,9 +19,12 @@ const config = {
     messagingSenderId: process.env.REACT_APP_FIREBASE_MSG_SND_ID
 };
 
+
 firebase.initializeApp(config);
-firebase.firestore().settings({timestampsInSnapshots: true});
-ReactDOM.render(<App />, document.getElementById('root'));
+
+ReactDOM.render(<FirestoreProvider firebase={firebase}>
+    <App />
+</FirestoreProvider>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
