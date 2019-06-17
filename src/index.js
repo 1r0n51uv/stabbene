@@ -21,7 +21,7 @@ const config = {
 };
 
 
-firebase.initializeApp(devconfig.devconfig);
+firebase.initializeApp(config);
 
 ReactDOM.render(<FirestoreProvider firebase={firebase}>
     <App />
