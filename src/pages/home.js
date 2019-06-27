@@ -1,8 +1,6 @@
 import React, {Component} from 'react';
 import imgUrl from "../img/cover_4.jpg";
-import ReactPlayer from "react-player";
 import 'video-react/dist/video-react.css';
-import { Player } from 'video-react';
 import gif from './../img/ezgif.com-gif-maker.gif'
 class Home extends Component {
     render() {
@@ -13,21 +11,18 @@ class Home extends Component {
                     <div className="row center-block">
 
                         <div className="col-md-12">
-                            <div className="motto">
 
-                                <img src={gif}  className="img-responsive" alt=""/>
+                            <div className="motto" style={{width: '100%'}}>
 
-                                {/*<ReactPlayer url="https://firebasestorage.googleapis.com/v0/b/stabbene-26dc4.appspot.com/o/Stabbene_Home.mp4?alt=media&token=a63d4279-544b-4055-86ca-f3b405795ea8"
-                                             playing="true"
-                                             loop="true"
-                                             width='100%'
-
-                                />*/}
-
+                                <img src={gif}
+                                     className="img-responsive center-block "
+                                     alt=""/>
 
                             </div>
 
                         </div>
+
+
                     </div>
 
 
