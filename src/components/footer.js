@@ -8,8 +8,8 @@ class Footer extends Component {
                     <div className="container">
                         <div className="row">
                             <div className="credits">
-                                &copy; 2016 Get Shit Done Kit, made with
-                                <i className="fa fa-heart heart" alt="love"/> for a better web.
+                                &copy; Made with
+                                <i className="fa fa-heart heart" alt="love"/> by 1r0n51uv
                             </div>
                         </div>
                     </div>

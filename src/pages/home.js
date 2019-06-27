@@ -2,6 +2,9 @@ import React, {Component} from 'react';
 import imgUrl from "../img/cover_4.jpg";
 import 'video-react/dist/video-react.css';
 import gif from './../img/ezgif.com-gif-maker.gif'
+import { AwesomeButton } from "react-awesome-button";
+import "react-awesome-button/dist/styles.css";
+
 class Home extends Component {
     render() {
         return (
@@ -18,6 +21,10 @@ class Home extends Component {
                                      className="img-responsive center-block "
                                      alt=""/>
 
+                                <AwesomeButton type="secondary" size="auto" href="mailto:stabbenecomunicazione@gmail.com">
+                                    CONTACT US!
+                                </AwesomeButton>
+
                             </div>
 
                         </div>
@@ -26,13 +33,11 @@ class Home extends Component {
                     </div>
 
 
+                    {
+                        //<div className="img-src" style={{backgroundImage: 'url(' + imgUrl + ')'}}/>
+                        //<div className="img-src blur" style={{backgroundImage: 'url(' + imgUrl + ')'}}/>
+                    }
 
-
-
-
-
-                    <div className="img-src" style={{backgroundImage: 'url(' + imgUrl + ')'}}/>
-                    <div className="img-src blur" style={{backgroundImage: 'url(' + imgUrl + ')'}}/>
                 </div>
             </div>
 

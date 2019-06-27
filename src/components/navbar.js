@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import new_logo from "../img/new_logo.png";
+import pills from "../img/pills.jpg";
 
 class Navbar extends Component {
     render() {
@@ -19,10 +20,10 @@ class Navbar extends Component {
                                     <span className="icon-bar"/>
                                     <span className="icon-bar"/>
                                 </button>
-                                <a href="http://creative-tim.com">
+                                <a href="#">
                                     <div className="logo-container">
                                         <div className="logo">
-                                            <img src={new_logo} alt=""/>
+                                            <img src={pills} alt=""/>
                                         </div>
                                         <div className="brand">
                                             Stabbene
@@ -35,7 +36,6 @@ class Navbar extends Component {
                             <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                 <ul className="nav navbar-nav navbar-right">
                                     <li><a href="#">Home</a></li>
-
                                 </ul>
 
                             </div>
