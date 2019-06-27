@@ -8,6 +8,8 @@ import { FirestoreProvider } from 'react-firestore';
 
 import * as serviceWorker from './serviceWorker';
 
+import note from './note'
+
 
 
 const config = {
@@ -20,7 +22,7 @@ const config = {
 };
 
 
-firebase.initializeApp(config);
+firebase.initializeApp(note.devconfig);
 
 ReactDOM.render(<FirestoreProvider firebase={firebase}>
     <App />
