@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import rdcstl from './../img/LOGO_PNG.svg';
 
 class Footer extends Component {
     render() {
@@ -8,8 +9,9 @@ class Footer extends Component {
                     <div className="container">
                         <div className="row">
                             <div className="credits">
-                                &copy; Made with
-                                <i className="fa fa-heart heart" alt="love"/> by 1r0n51uv
+                                &copy; Made with { ' ' }
+                                <i className="fas fa-heart" alt="love"/> by <code>Red Castle</code> {' '}
+                                <i className="fab fa-fort-awesome" style={{fontSize: '230%', color: '#d91e18'}} alt="love"/>
                             </div>
                         </div>
                     </div>
