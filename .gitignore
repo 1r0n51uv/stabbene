@@ -27,3 +27,5 @@ yarn-error.log*
 /src/note.json
 /src/index.js
 /package.json
+/.env
+.env
