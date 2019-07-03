@@ -24,8 +24,5 @@ yarn-error.log*
 
 .idea/*
 
-/src/note.json
-/src/index.js
-/package.json
 /.env
 .env
