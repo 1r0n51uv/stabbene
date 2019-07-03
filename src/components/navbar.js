@@ -25,9 +25,6 @@ class Navbar extends Component {
                                         <div className="logo">
                                             <img src={pills} alt=""/>
                                         </div>
-                                        <div className="brand">
-                                            Stabbene
-                                        </div>
                                     </div>
                                 </a>
                             </div>
@@ -35,7 +32,7 @@ class Navbar extends Component {
 
                             <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                 <ul className="nav navbar-nav navbar-right">
-                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#" style={{color: 'black'}}>Home</a></li>
                                 </ul>
 
                             </div>
