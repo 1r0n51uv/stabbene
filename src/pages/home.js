@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import imgUrl from "../img/cover_4.jpg";
+import Interval from 'react-interval-rerender'
 import 'video-react/dist/video-react.css';
 import gif from './../img/ezgif.com-gif-maker.gif'
 import { AwesomeButton } from "react-awesome-button";
@@ -9,24 +9,35 @@ class Home extends Component {
     render() {
         return (
             <div>
-                <div className='blurred-container' >
+
+                <div className="social-line" style={{height: '150px'}}/>
+
+                <div className='container tim-container' >
 
                     <div className="row center-block">
 
-                        <div className="col-md-12">
+                        <div className="col-md-12" >
 
-                            <div className="motto" style={{width: '100%'}}>
 
-                                <img src={gif}
-                                     className="img-responsive center-block "
-                                     alt=""/>
+                            <img src={gif}
+                                 className="img-responsive center-block "
+                                 alt=""/>
 
-                                <AwesomeButton type="secondary" size="auto" href="mailto:stabbenecomunicazione@gmail.com">
-                                    CONTACT US!
-                                </AwesomeButton>
+                            <div className="card">
+
 
                             </div>
 
+
+                        </div>
+                        <div className="col-md-12 text-center"  style={{marginBottom: '5%', marginTop: '2%'}}>
+
+                            <h2>L'agenzia creativa per la tua IPOCONDRIA</h2>
+
+
+                            <AwesomeButton type="secondary" size="auto" href="mailto:stabbenecomunicazione@gmail.com">
+                                CONTACT US!
+                            </AwesomeButton>
                         </div>
 
 
