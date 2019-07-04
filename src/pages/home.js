@@ -33,7 +33,7 @@ class Home extends Component {
 
                             <h2 style={{fontFamily: 'Comfortaa'}}>L'agenzia creativa per la tua <b>ipocondria</b></h2>
 
-
+                            <hr/>
                             <AwesomeButton type="secondary" size="auto" href="mailto:stabbenecomunicazione@gmail.com">
                                 CONTACT US!
                             </AwesomeButton>
