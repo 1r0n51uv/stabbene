@@ -31,7 +31,7 @@ class Home extends Component {
                         </div>
                         <div className="col-md-12 text-center"  style={{marginBottom: '5%', marginTop: '2%'}}>
 
-                            <h2>L'agenzia creativa per la tua IPOCONDRIA</h2>
+                            <h2 style={{fontFamily: 'Comfortaa'}}>L'agenzia creativa per la tua <b>ipocondria</b></h2>
 
 
                             <AwesomeButton type="secondary" size="auto" href="mailto:stabbenecomunicazione@gmail.com">
