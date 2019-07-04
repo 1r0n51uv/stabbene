@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import Interval from 'react-interval-rerender'
 import 'video-react/dist/video-react.css';
 import gif from './../img/ezgif.com-gif-maker.gif'
 import { AwesomeButton } from "react-awesome-button";
