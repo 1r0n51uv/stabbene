@@ -7,6 +7,7 @@ import 'firebase/firestore';
 import { FirestoreProvider } from 'react-firestore';
 
 import * as serviceWorker from './serviceWorker';
+require('dotenv').config();
 
 
 
