@@ -5,8 +5,11 @@ import App from './App';
 import firebase from 'firebase/app';
 import 'firebase/firestore';
 import { FirestoreProvider } from 'react-firestore';
+
 import * as serviceWorker from './serviceWorker';
 require('dotenv').config();
+
+
 
 const config = {
     apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
@@ -23,7 +26,6 @@ firebase.initializeApp(config);
 ReactDOM.render(<FirestoreProvider firebase={firebase}>
     <App />
 </FirestoreProvider>, document.getElementById('root'));
-
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
